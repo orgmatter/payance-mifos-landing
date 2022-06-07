@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    // font-family: 'MuseoModerno', cursive;
+}
+
+// Laptop screen
+@media screen and (max-width: 1700px) {
+    
+    .app-cover {
+        width: 100%;
+
+        .app-cover-flex {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .app-cover-item {
+                width: 100%;
+
+                .app-header-cover {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

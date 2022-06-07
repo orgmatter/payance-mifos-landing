@@ -1,0 +1,1122 @@
+// Laptop screen
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@media screen and (max-width: 1700px) {
+
+    .homepage-cover {
+        width: 100%;
+
+        .homepage-cover-flex {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            .homepage-cover-item {
+                width: 100%;
+
+                .homepage-content-flex {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+
+                    .homepage-content-item {
+                        width: 100%;
+
+                        .homepage-body-cover {
+                            width: 100%;
+
+                            .homepage-body-hero-cover-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                // background-color: rgba(245,247,253, 1);rgb(254 208 0)
+                                background-color: rgba(255,255,255, 1);
+                                padding-top: 70px;
+
+                                .homepage-body-hero-cover-item {
+                                    width: 100%;
+                                    background: url("../../public/assets/images/hero-image1.png") no-repeat 100% 100%;
+                                    background-size: cover;
+                                    height: 950px;
+
+                                    .hero-cover-flex {
+                                        width: 100%;
+                                        height: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        .hero-cover-item {
+                                            width: 50%;
+
+                                            &:first-child {
+                                                height: 100%;
+
+                                                .hero-text-btn-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+
+                                                    .hero-text-btn-cover-item {
+                                                        width: 80%;
+                                                        padding: 20px;
+                                                        border-radius: 8px;
+                                                        margin-top: -20%;
+                                                        margin-left: 10%;
+
+                                                        .hero-text-cover-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: center;
+        
+                                                            .hero-text-cover-item {
+                                                                width: 100%;
+        
+                                                                .title-cover {
+                                                                    width: 100%;
+        
+                                                                    .title-h {
+                                                                        font-size: 3.5rem;
+                                                                        font-weight: 600;
+                                                                        color: rgba(245, 247, 253, 1);
+                                                                        margin-block-end: 0.1em;
+                                                                    }
+                                                                }
+                                                                .subtitle-cover {
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    justify-content: flex-start;
+        
+                                                                    .subtitle-h {
+                                                                        width: 80%;
+                                                                        font-size: 1.4rem;
+                                                                        font-weight: 400;
+                                                                        color: rgba(245, 247, 253, 0.8);
+                                                                        margin-block-start: 0.8em;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        .hero-btn-cover-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: flex-start;
+                                                            padding-top: 15px;
+        
+                                                            .hero-btn-cover-item {
+                                                                width: 60%;
+        
+                                                                .btn-cover-flex {
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+        
+                                                                    .btn-cover-item {
+                                                                        width: 50%;
+                                                                        padding: 10px;
+                                                                        padding-left: 0px;
+
+                                                                        &:first-child {
+
+                                                                            .btn-elem {
+                                                                                width: 100%;
+                                                                                height: 45px;
+                                                                                background-color: rgba(245, 247, 253, 1) !important;
+                                                                                color: rgba(51, 63, 72, 1);
+                                                                                text-transform: capitalize;
+                                                                            }
+                                                                        }
+                                                                        &:last-child {
+
+                                                                            .btn-elem {
+                                                                                width: 100%;
+                                                                                height: 45px;
+                                                                                border: 1px solid rgba(51, 63, 72, 1);
+                                                                                background-color: rgb(254, 208, 0);
+                                                                                color: rgba(51, 63, 72, 1);
+                                                                                text-transform: capitalize;
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+
+                                            &:last-child {
+
+                                                .image-outer-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+
+                                                    .image-outer-cover-item {
+                                                        width: 100%;
+
+                                                        .image-cover-flex {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+        
+                                                            .image-cover-item {
+                                                                width: 100%;
+        
+                                                                .hero-img {
+                                                                    width: 90%;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .homepage-body-tech-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: flex-start;
+                                background-color: rgba(255,255,255, 1);
+
+                                .homepage-body-tech-section-item {
+                                    width: 60%;
+                                    padding-top: 0px;
+                                    padding-bottom: 10px;
+    
+                                    .section-tech-cover {
+                                        width: 100%;
+    
+                                        .tech-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+    
+                                            .tech-header-cover-item {
+                                                width: 80%;
+                                                padding-top: 10px;
+                                                padding-bottom: 0px;
+    
+                                                .header-title {
+                                                    text-align: left;
+                                                    font-size: 1.1rem;
+                                                    font-weight: 600;
+                                                    // color: rgba(0, 90, 122, 0.6);
+                                                    color: rgba(51, 63, 72, 0.9);
+                                                }
+                                            }
+                                        }
+                                        .tech-image-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            padding-bottom: 10px;
+    
+                                            .tech-image-cover-item {
+                                                width: 75%;
+                                                margin-left: -10%;
+                                                padding-top: 0px;
+    
+                                                .image-card-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+    
+                                                    .image-card-item {
+                                                        width: (100%/4);
+    
+                                                        .image-cover-flex {
+                                                            width: 100%;
+                                                            height: 100%;
+                                                            display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+    
+                                                            .image-cover-item {
+                                                                width: 80%;
+    
+                                                                .tech-img {
+                                                                    width: 100%;
+                                                                }
+                                                            }
+                                                        }
+    
+                                                        &:nth-child(3) {
+    
+                                                            .image-cover-item {
+                                                                width: 60% !important;
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .homepage-body-why-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                // background-color: rgba(245, 247, 253, 1);
+                                // background-color: rgba(235, 235, 235, 0.7);
+                                background-color: rgba(255, 255, 255, 1);
+
+                                .homepage-body-why-section-item {
+                                    width: 100%;
+                                    padding-bottom: 60px;
+                                    background: url("../../public/assets/images/home-content-bg1.png") no-repeat 100% 100%;
+                                    opacity: 0.95;
+                                    background-size: cover;
+                                    height: 1100px;
+                                    display: flex;
+                                    justify-content: center;
+                                    
+                                    .section-why-cover {
+                                        width: 100%;
+
+                                        .why-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .why-header-cover-item {
+                                                width: 100%;
+                                                padding-top: 140px;
+                                                padding-bottom: 40px;
+                                                position: relative;
+
+                                                .header-title {
+                                                    position: absolute;
+                                                    text-align: center;
+                                                    font-size: 2.2rem;
+                                                    font-weight: 600;
+                                                    // color: rgba(0, 90, 122, 1);
+                                                    // color: rgba(51, 63, 72, 1);
+                                                    color: rgba(255, 255, 255, 1);
+                                                    margin-block-end: 0.5rem;
+                                                    top: 80%;
+                                                    left: 56%;
+
+                                                    .inline-color {
+                                                        color: rgb(254, 208, 0) !important;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .why-content-cover-flex {
+                                            width: 100%;
+                                            height: 40%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-end;
+
+                                            .why-content-cover-item {
+                                                width: 50%;
+                                                height: 50%;
+                                                // border: 1px solid red;
+
+                                                .why-text-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: flex-end;
+                                                    align-items: flex-start;
+                                                    padding: 0px;
+
+                                                    .why-text-cover-item {
+                                                        width: 80%;
+                                                        margin-right: 8%;
+
+                                                        .text-cover {
+                                                            width: 100%;
+
+                                                            .title-header-cover {
+                                                                width: 100%;
+
+                                                                .title-h {
+                                                                    text-align: left;
+                                                                    font-size: 1.7rem;
+                                                                    font-weight: 600;
+                                                                    // color: rgba(0, 90, 122, 1);
+                                                                    color: rgba(51, 63, 72, 1);
+                                                                    margin-block-end: 0.1em;
+                                                                }
+                                                            }
+                                                            .title-desc-cover {
+
+                                                                .desc-p {
+                                                                    font-size: 1.6rem;
+                                                                    font-weight: 600;
+                                                                    // color: rgba(51, 63, 72, 1);
+                                                                    color: rgba(255, 255, 255, 1);
+                                                                    line-height: 50px;
+                                                                }
+                                                                .desc-ul {
+                                                                    margin-left: -20px;
+
+                                                                    .desc-li {
+                                                                        font-size: 1.1rem;
+                                                                        color: rgba(0, 90, 122, 1);
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                            .homepage-body-user-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                // background-color: rgba(245, 247, 253, 1);
+                                background-color: rgba(255,255,255, 1);
+                                padding-top: 150px;
+                                padding-bottom: 100px;
+
+                                .homepage-body-user-section-item {
+                                    width: 100%;
+                                    padding-bottom: 90px;
+                                    
+                                    .section-user-cover {
+                                        width: 100%;
+
+                                        .user-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .user-header-cover-item {
+                                                width: 100%;
+                                                padding-bottom: 0px;
+                                                position: relative;
+
+                                                .header-title {
+                                                    text-align: center;
+                                                    font-size: 2.2rem;
+                                                    font-weight: 600;
+                                                    color: rgba(51, 63, 72, 1);
+                                                    margin-block-end: 0rem;
+
+                                                    .inline-color {
+                                                        color: rgb(255, 208, 0) !important;
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+                                        .user-content-cover-flex0 {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .user-content-cover-item {
+                                                width: 90%;
+                                                background-color: rgba(255,255,255, 1);
+
+                                                .user-text-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+
+                                                    .user-text-cover-item {
+                                                        width: 80%;
+
+                                                        .text-cover {
+                                                            width: 100%;
+
+                                                            .title-desc-cover {
+
+                                                                .desc-cover-flex {
+                                                                    width: 100%;
+                                                                    display: flex;
+                                                                    justify-content: flex-start;
+                
+                                                                    .desc-p {
+                                                                        font-size: 2rem;
+                                                                        font-weight: 600;
+                                                                        color: rgba(51, 63, 72, 1);
+                                                                        line-height: 50px;
+
+                                                                        .inline-color {
+                                                                            color: rgb(255, 208, 0) !important;
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+
+                                        .user-content-cover-flex {
+                                            width: 100%;
+                                            padding-top: 50px;
+                                            display: flex;
+                                            justify-content: space-between;
+
+                                            .user-content-cover-item {
+                                                width: 80%;
+
+                                                &:first-child {
+                                                    background-color: rgba(255,255,255, 1);
+
+                                                    .user-text-cover-flex {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        margin-left: 5%;
+
+                                                        .user-text-cover-item {
+                                                            width: 100%;
+
+                                                            .text-cover {
+                                                                width: 100%;
+
+                                                                .title-header-cover {
+                                                                    width: 100%;
+
+                                                                    .title-h {
+                                                                        text-align: left;
+                                                                        font-size: 1.7rem;
+                                                                        font-weight: 600;
+                                                                        color: rgba(51, 63, 72, 1);
+                                                                        margin-block-end: 0.1em;
+                                                                    }
+                                                                }
+                                                                .title-desc-cover {
+
+                                                                    .desc-p {
+                                                                        font-size: 1.5rem;
+                                                                        // font-weight: 600;
+                                                                        color: rgba(51, 63, 72, 1);
+                                                                        line-height: 45px;
+                                                                        margin-left: 20%;
+                                                                    }
+                                                                    .desc-ul {
+                                                                        margin-left: -20px;
+
+                                                                        .desc-li {
+                                                                            font-size: 1.2rem;
+                                                                            color: rgba(51, 63, 72, 1);
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                &:last-child {
+                                                    // background-color: rgba(183, 221, 226, 1);
+
+                                                    .user-image-cover-flex {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        position: relative;
+
+                                                        .user-image-cover-item {
+                                                            width: 90%;
+                                                            overflow: hidden;
+                                                            display: flex;
+                                                            justify-content: center;
+
+                                                            .user-img {
+                                                                width: 100%;
+                                                            }
+                                                        }
+                                                    }
+                                                    .image-title-h {
+                                                        position: absolute;
+                                                        text-align: center;
+                                                        font-size: 1.7rem;
+                                                        font-weight: 600;
+                                                        color: rgba(51, 63, 72, 1);
+                                                        margin-block-end: 0.1em;
+                                                        // right: 17%;
+                                                        bottom: -7%;
+                                                    }
+                                                }
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+
+                            .homepage-body-service-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                // background-color: rgba(245, 247, 253, 1);
+                                // background-color: rgba(235, 235, 235, 0.7);
+                                background-color: rgba(255, 255, 255, 1);
+
+                                .homepage-body-service-section-item {
+                                    width: 100%;
+                                    padding-bottom: 60px;
+                                    background: url("../../public/assets/images/services-bg-image.png") no-repeat 100% 100%;
+                                    background-size: cover;
+                                    height: 1100px;
+                                    display: flex;
+                                    justify-content: center;
+                                    
+                                    .section-service-cover {
+                                        width: 100%;
+
+                                        .service-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .service-header-cover-item {
+                                                width: 100%;
+                                                padding-top: 140px;
+                                                padding-bottom: 40px;
+                                                position: relative;
+
+                                                .header-title {
+                                                    position: absolute;
+                                                    text-align: center;
+                                                    font-size: 2.2rem;
+                                                    font-weight: 600;
+                                                    // color: rgba(0, 90, 122, 1);
+                                                    // color: rgba(51, 63, 72, 1);
+                                                    color: rgba(255, 255, 255, 1);
+                                                    margin-block-end: 0.5rem;
+                                                    top: 80%;
+                                                    left: 56%;
+
+                                                    .inline-color {
+                                                        color: rgb(254, 208, 0) !important;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .service-content-cover-flex {
+                                            width: 100%;
+                                            height: 40%;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: flex-end;
+
+                                            .service-content-cover-item {
+                                                width: 50%;
+                                                height: 50%;
+                                                // border: 1px solid red;
+
+                                                .service-text-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: flex-end;
+                                                    align-items: flex-start;
+                                                    padding: 0px;
+
+                                                    .service-text-cover-item {
+                                                        width: 80%;
+                                                        margin-right: 8%;
+
+                                                        .text-cover {
+                                                            width: 100%;
+
+                                                            .title-header-cover {
+                                                                width: 100%;
+
+                                                                .title-h {
+                                                                    text-align: left;
+                                                                    font-size: 1.7rem;
+                                                                    font-weight: 600;
+                                                                    // color: rgba(0, 90, 122, 1);
+                                                                    color: rgba(51, 63, 72, 1);
+                                                                    margin-block-end: 0.1em;
+                                                                }
+                                                            }
+                                                            .title-desc-cover {
+
+                                                                .desc-p {
+                                                                    font-size: 1.6rem;
+                                                                    font-weight: 600;
+                                                                    // color: rgba(51, 63, 72, 1);
+                                                                    color: rgba(255, 255, 255, 1);
+                                                                    line-height: 50px;
+                                                                }
+                                                                .desc-ul {
+                                                                    margin-left: -20px;
+
+                                                                    .desc-li {
+                                                                        font-size: 1.1rem;
+                                                                        color: rgba(0, 90, 122, 1);
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                .service-btn-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: flex-start;
+                                                    padding-top: 60px;
+
+                                                    .service-btn-cover-item {
+                                                        width: 20%;
+                                                        margin-left: 12%;
+
+                                                        .btn-elem {
+                                                            width: 100%;
+                                                            border: none;
+                                                            background-color: rgb(254, 208, 0) !important;
+                                                            color: rgba(51, 63, 72, 1);
+                                                            text-transform: capitalize;
+                                                            font-weight: 500;
+                                                            font-size: 1rem;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .testimonial-carousel-cover-flex {
+                                width: 100%;
+                                height: 500px;
+                                display: flex;
+                                justify-content: center;
+
+                                .testimonial-carousel-cover-item {
+                                    width: 100%;
+                                    height: 100%;
+                                    padding-top: 150px;
+
+                                    .testimonial-header-cover-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+                                        padding-bottom: 50px;
+
+                                        .testimonial-header-cover-item {
+                                            width: 50%;
+
+                                            .testimonial-h {
+                                                text-align: center;
+                                                font-size: 1.9rem;
+                                                font-weight: 500;
+                                                color: rgba(51, 63, 72, 1);
+                                                line-height: 35px;
+                                            }
+                                        }
+                                    }
+                                    .testimonial-inner-secton-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        .testimonial-inner-secton-item {
+
+                                            &:first-child {
+                                                width: 30%;
+
+                                                .testimonial-inner-section-image-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+
+                                                    .testimonial-inner-section-image-item {
+                                                        width: 50%;
+                                                        margin-top: -60px;
+
+                                                        .section-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &:last-child {
+                                                width: 70%;
+
+                                                .testimonial-cover-flex {
+                                                    width: 100%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+            
+                                                    .testimonial-cover-item {
+                                                            width: 100%;
+            
+                                                            .testimonial-logo-text-cover-flex {
+                                                                width: 100%;
+                                                                display: flex;
+                                                                justify-content: center;
+            
+                                                                .testimonial-logo-text-cover-item {
+                                                                    width: 80%;
+                
+                                                                    .logo-text-cover-flex {
+                                                                        width: 100%;
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                
+                                                                        .logo-text-cover-item {
+                
+                                                                            &:first-child {
+                                                                                width: 20%;
+                
+                                                                                .logo-cover-flex {
+                                                                                    width: 100%;
+                                                                                    height: 100%;
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    border-right: 5px solid rgba(51, 63, 72, 0.5);
+                
+                                                                                    .logo-cover-item {
+                                                                                        width: 80%;
+                
+                                                                                        .logo-img {
+                                                                                            width: 100%;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                            &:last-child {
+                                                                                width: 80%;
+                
+                                                                                .text-cover-flex {
+                                                                                    width: 100%;
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    padding-left: 45px;
+                
+                                                                                    .text-cover-item {
+                                                                                        width: 100%;
+                                                                                        position: relative;
+                
+                                                                                        .text-h {
+                                                                                            font-size: 1.2rem;
+                                                                                            font-weight: 600;
+                                                                                            color: rgba(51, 63, 72, 0.8);
+                                                                                            line-height: 35px;
+                                                                                            margin-block-start: 0rem;
+                                                                                            font-style: italic;
+                                                                                        }
+                                                                                        .text-quote-span-left {
+                                                                                            position: absolute;
+                                                                                            font-size: 2.5rem;
+                                                                                            font-weight: 600;
+                                                                                            color: rgb(254, 208, 0);
+                                                                                            line-height: 35px;
+                                                                                            top: 5px;
+                                                                                            left: -20px;
+                                                                                        }
+                                                                                        .text-quote-span-right {
+                                                                                            position: absolute;
+                                                                                            font-size: 2.5rem;
+                                                                                            font-weight: 600;
+                                                                                            color: rgb(254, 208, 0);
+                                                                                            line-height: 35px;
+                                                                                            bottom: 10px;
+                                                                                            right: 45px;
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                    .testimonial-name-cover-flex {
+                                                                        width: 100%;
+                                                                        display: flex;
+                                                                        justify-content: center;
+                
+                                                                        .testimonial-name-cover-item {
+                                                                            width: 50%;
+                                                                            margin-top: -10px;
+                
+                                                                            .name-cover-flex {
+                                                                                width: 100%;
+                                                                                display: flex;
+                                                                                justify-content: flex-start;
+                
+                                                                                .name-cover-item {
+                                                                                    width: 100%;
+                
+                                                                                    .name-p {
+                                                                                        font-size: 0.9rem;
+                                                                                        color: rgba(51, 63, 72, 0.8);
+                                                                                        line-height: 35px;
+                                                                                        margin-block-start: 0rem;
+                                                                                    }
+                                                                                    .strike-line-span {
+                
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+
+                            .homepage-body-callus-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                // background-color: rgba(245, 247, 253, 1);
+                                background-color: rgba(255, 255, 255, 1);
+
+                                .homepage-body-callus-section-item {
+                                    width: 100%;
+                                    padding-top: 160px;
+                                    padding-bottom: 0px;
+
+                                    .callus-cover-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: space-between;
+
+                                        .callus-cover-item {
+                                            // border: 1px solid red;
+
+                                            &:first-child {
+                                                width: 50%;
+
+                                                .callus-text-btn-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: flex-end;
+
+                                                    .callus-text-btn-cover-item {
+                                                        width: 90%;
+
+                                                        .callus-text-cover-flex {
+                                                            width: 100%;
+                                                            display: flex;
+                                                            justify-content: center;
+
+                                                            .callus-text-cover-item {
+                                                                width: 100%;
+                                                                text-align: left;
+        
+                                                                .callus-text-h {
+                                                                    font-size: 3.2rem;
+                                                                    font-weight: 700;
+                                                                    color: rgb(28, 36, 43);
+                                                                    margin-block-end: 1rem;
+                                                                    font-family: 'MuseoModerno', cursive, Helvetica, Arial, sans-serif;
+
+                                                                    .inline-color {
+                                                                        color: rgb(254, 208, 0);
+                                                                    }
+                                                                }
+                                                                .callus-text-p {
+                                                                    font-size: 1.3rem;
+                                                                    font-weight: 500;
+                                                                    color: rgba(28, 36, 43, 0.8);
+                                                                    margin-block-start: 1rem;
+                                                                    line-height: 25px;
+
+                                                                    &:last-child {
+                                                                        font-weight: 600 !important;
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                        .callus-btn-cover-flex {
+                                                            width: 100%;
+                                                            height: 200px;
+                                                            display: flex;
+                                                            justify-content: flex-start;
+                                                            padding-top: 0px;
+                                                            // border: 1px solid red;
+                                                            align-items: flex-start;
+        
+                                                            .callus-btn-cover-item {
+                                                                width: 25%;
+                                                                margin-left: 0%;
+        
+                                                                .callus-btn {
+                                                                    width: 100%;
+                                                                    // background-color: rgba(0, 90, 122, 0.9);
+                                                                    border: 2px solid rgb(254, 208, 0);
+                                                                    padding: 10px;
+                                                                    box-shadow: none !important;
+                                                                    font-size: 0.9rem;
+                                                                    text-transform: capitalize;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            &:last-child {
+                                                width: 50%;
+                                                height: 650px;
+                                                display: flex;
+                                                justify-content: flex-end;
+                                                overflow-x: hidden;
+                                                position: relative;
+
+                                                .callus-img-cover-flex {
+                                                    width: 90%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    position: absolute;
+                                                    left: 20%;
+
+                                                    .callus-img-cover-item {
+                                                        width: 100%;
+
+                                                        .callus-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .homepage-body-client-section-flex {
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                background-color: rgba(245, 247, 253, 0.8);
+
+                                .homepage-body-client-section-item {
+                                    width: 40%;
+                                    padding-bottom: 30px;
+                                    
+                                    .section-client-cover {
+                                        width: 100%;
+
+                                        .client-header-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .client-header-cover-item {
+                                                width: 100%;
+                                                padding-top: 60px;
+                                                padding-bottom: 40px;
+
+                                                .header-title {
+                                                    text-align: center;
+                                                    font-size: 1.8rem;
+                                                    font-weight: 500;
+                                                    color: rgba(0, 90, 122, 1);
+                                                }
+                                            }
+                                        }
+                                        .client-content-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: space-between;
+
+                                            .client-content-cover-item {
+                                                width: 40%;
+                                                // background-color: #fff;
+                                                border-radius: 5px;
+                                                // box-shadow: 0px 1px 0px 1px rgba(0,0,0,0.3);
+
+                                                .client-image-cover-flex {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+
+                                                    .client-image-cover-item {
+                                                        width: 60%;
+
+                                                        .client-img {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                }
+
+                                                &:first-child {
+
+                                                }
+                                                &:last-child {
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .homepage-body-testimony-section-flex {
+                                width: 100%;
+                                border: 1px solid green;
+                                display: flex;
+                                justify-content: center;
+
+                                .homepage-body-testimony-section-item {
+
+                                    .section-testimony-cover {
+
+                                        .testimony-header-cover-flex {
+
+                                            .testimony-header-cover-item {
+
+                                                .header-title {
+
+                                                }
+                                            }
+                                        }
+                                        .testimony-content-cover-flex {
+
+                                            .testimony-content-cover-item {
+
+                                                &:first-child {
+
+                                                }
+                                                &:last-child {
+                                                    
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

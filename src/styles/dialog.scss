@@ -1,0 +1,394 @@
+@media screen and (max-width: 1700px) {
+    
+    .dialog-cover {
+
+        .MuiDialog-scrollPaper {
+
+            .MuiDialog-paperWidthSm {
+                max-width: 100%;
+                width: 40%;
+                border-radius: 15px;
+            }
+        }
+
+        .dialog-title-cover {
+            // background-color: rgba(0, 90, 122, 0.8);
+            background-color: rgb(28, 36, 43);
+            max-height: 100px;
+            padding: 0px;
+
+            .title-header-cover-flex {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                .title-header-cover-item {
+                    width: 40%;
+
+                    .title-header-content-cover-flex {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+
+                        .title-header-content-cover-item {
+                            width: 60%;
+
+                            .title-header {
+
+                                .title-h {
+                                    text-align: center;
+                                    font-size: 1.2rem;
+                                    font-weight: 600;
+                                    color: rgba(255, 255, 255, 0.9);
+                                    margin-block-start: 0.9rem;
+                                    margin-block-end: 0.9rem;
+
+                                    .inline-color-span {
+                                        color: rgb(254, 208, 0);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .dialog-content-cover {
+            background-color: rgba(235, 235, 235, 0.8);
+            // padding: 0px;
+
+            .dialog-form-demo-cover {
+                width: 100%;
+
+                .dialog-form-demo-cover-flex {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+
+                    .dialog-form-demo-cover-item {
+                        width: 100%;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+
+                        .mail-status-cover-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .mail-status-cover-item {
+                                width: 100%;
+
+                                .status-loader-cover-flex {
+                                    width: 100%;
+                                    height: 400px;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    .status-loader-cover-item {
+                                        width: 50%;
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .loader-box-cover {
+                                            display: flex;
+                                        }
+                                    }
+                                }
+
+                                .status-image-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+
+                                    .status-image-cover-item {
+                                        width: 70%;
+                                        padding-top: 20px;
+                                        padding-bottom: 20px;
+
+                                        .image-cover-flex {
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+
+                                            .image-cover-item {
+                                                width: 100%;
+
+                                                .status-img {
+                                                    width: 100%;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                .status-text-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+
+                                    .status-text-cover-item {
+                                        width: 90%;
+
+                                        .status-text {
+                                            font-size: 1rem;
+                                            font-weight: 500;
+                                            color: rgba(28, 36, 43, 0.7);
+                                            line-height: 25px;
+                                        }
+                                    }
+                                }
+                                .status-btn-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    padding-top: 20px;
+
+                                    .status-btn-cover-item {
+                                        width: 20%;
+
+                                        .status-btn {
+                                            width: 100%;
+                                            background-color: rgba(28, 36, 43, 1);
+                                            color: rgb(254, 208, 0);
+                                            text-transform: capitalize;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .form-cover-flex {
+                            width: 100%;
+                            display: flex;
+                            justify-content: center;
+
+                            .form-cover-item {
+                                width: 100%;
+
+                                .form-elem-cover {
+                                    width: 100%;
+
+                                    .form-title-cover-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .form-title-cover-item {
+                                            width: 80%;
+                                        }
+                                    }
+                                    .form-input-cover-flex {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+
+                                        .form-input-cover-item {
+                                            width: 100%;
+
+                                            .input-cover-flex-short {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: space-between;
+
+                                                .input-cover-item {
+                                                    width: 50%;
+                                                    padding: 20px;
+
+                                                    .form-input {
+                                                        width: 100%;
+                                                        // border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                        // border-radius: 8px;
+
+                                                        input {
+                                                            border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                            border-radius: 8px;
+                                                        }
+                                                    }
+
+                                                    &:first-child {
+                                                        padding-right: 10px !important;
+                                                    }
+                                                    &:last-child {
+                                                        padding-left: 10px !important;
+
+                                                        .form-control-cover {
+                                                            width: 100%;
+
+                                                            .form-select-input {
+                                                                width: 100%;
+
+                                                                .menu-cover {
+
+                                                                    .menu-item-cover {
+
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .input-cover-flex-long {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .input-cover-item {
+                                                    width: 100%;
+                                                    padding: 20px;
+
+                                                    .form-input {
+                                                        width: 100%;
+                                                        // border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                        // border-radius: 8px;
+
+                                                        input {
+                                                            border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                            border-radius: 8px;
+                                                        }
+                                                    }
+
+                                                    .form-control-cover {
+                                                        width: 100%;
+
+                                                        .form-select-input {
+                                                            width: 100%;
+                                                            border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                            border-radius: 8px;
+    
+                                                            input {
+                                                                // border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                                // border-radius: 8px;
+                                                            }
+                                                        }
+                                                    }
+
+                                                    .form-text-input {
+                                                        width: 100%;
+                                                        border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                        border-radius: 8px;
+
+                                                        input {
+                                                            // border: 1px solid rgba(0, 90, 122, 0.7) !important;
+                                                            // border-radius: 8px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .btn-cover-flex {
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+
+                                                .btn-cover-item {
+                                                    width: 100%;
+                                                    padding: 15px;
+
+                                                    .form-btn {
+                                                        width: 100%;
+                                                        padding: 15px;
+                                                        box-shadow: none !important;
+                                                        border-radius: 8px;
+                                                        background-color: rgb(28, 36, 43);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .view-services-cover-flex {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                .view-services-cover-item {
+                    width: 100%;
+
+                    .service-menu-cover-flex {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .service-menu-cover-item {
+
+                            &:first-child {
+                                width: 40%;
+                                background-color: rgb(28, 36, 43);
+
+                                .menu-link-cover-flex {
+                                    width: 100%;
+                                    display: flex;
+                                    justify-content: center;
+
+                                    .menu-link-cover-item {
+                                        width: 100%;
+
+                                        .menu-cover-ul {
+                                            list-style-type: none;
+                                            margin-left: -4px;
+
+                                            .menu-cover-li {
+                                                height: 40px;
+
+                                                .list-a {
+                                                    display: block;
+                                                    line-height: 40px;
+                                                    color: rgba(255, 255, 255, 1);
+                                                    text-decoration: none;
+                                                    font-size: 1.1rem;
+                                                    font-weight: 600;
+                                                    transition: 0.2s ease-in-out all;
+
+                                                    &:hover {
+                                                        color: rgb(241, 199, 8);
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &:last-child {
+                                width: 60%;
+
+                                .menu-content-cover-flex {
+                                    width: 100%;
+                                    height: 100%;
+                                    display: flex;
+                                    justify-content: center;
+                                    background-color: rgba(245, 247, 253, 1);
+
+                                    .menu-content-cover-item {
+                                        width: 90%;
+
+                                        .menu-content-cover {
+                                            width: 100%;
+
+                                            .menu-content-h {
+                                                font-size: 1.1rem;
+                                                font-weight: 600;
+                                                color: rgb(28, 36, 43);
+                                            }
+
+                                            .menu-content-p {
+
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .dialog-content-cover-service {
+            padding: 0px !important;
+        }
+    }
+}
